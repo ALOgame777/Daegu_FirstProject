@@ -189,6 +189,8 @@ MonoBehaviour:
   isMan: 1
   runState: 0
   walkState: 0
+  endcount: 100
+  printMax: 10
 --- !u!1 &1439679500
 GameObject:
   m_ObjectHideFlags: 0
