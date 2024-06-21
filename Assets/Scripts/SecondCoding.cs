@@ -35,7 +35,7 @@ public class SecondCoding : MonoBehaviour
         // }
         #endregion
 
-        #region Example 1
+        #region 논리 연산자  Example 1
         //if (age1 > age2)
         //{
         //    print("age1 이 age2 보다 나이가 더 많습니다.");
@@ -124,7 +124,7 @@ public class SecondCoding : MonoBehaviour
         // F or F - F
         #endregion
 
-        #region Example 2
+        #region And, Or 조건  Example 2
         // 1. And 조건
         // 만일, 성별이 여성이고 나이가 20살 이상일 경우
         // "성인 여성입니다" 라고 출력한다.
@@ -177,7 +177,7 @@ public class SecondCoding : MonoBehaviour
 
         #endregion
 
-        #region 예제 1
+        #region 예제 1 누적식
         // 1 부터 10 까지 모든 정수를 출력한다. 
         //for (int i = 0; i < 20; i = i+1)
         //{
@@ -313,31 +313,31 @@ public class SecondCoding : MonoBehaviour
         // *****
 
         // 풀이1
-        int n = 5;
-        for (int i = 1; i <= n; i++)
-        {
-            print(new string('*', i));
-        }
+        //int n = 5;
+        //for (int i = 1; i <= n; i++)
+        //{
+        //    print(new string('*', i));
+        //}
 
         // 풀이 2 
-        string star = "";
-        for(int i = 0; i < 5; i++)
-        {
-            star += "*";
-            print(star);
-        }
+        //string star = "";
+        //for(int i = 0; i < 5; i++)
+        //{
+        //    star += "*";
+        //    print(star);
+        //}
 
         // 풀이 3 개행추가
-        string stars = "";
-        for (int i = 0; i < 5; i++)
-        {            
-            for (int j = 0; j < i+1; j++)
-            {
-                stars += "*";
-            }
-            stars += "\n";
-        }
-        print(stars);
+        //string stars = "";
+        //for (int i = 0; i < 5; i++)
+        //{            
+        //    for (int j = 0; j < i+1; j++)
+        //    {
+        //        stars += "*";
+        //    }
+        //    stars += "\n";
+        //}
+        //print(stars);
         #endregion
 
         #region 로그 찍기
@@ -347,11 +347,7 @@ public class SecondCoding : MonoBehaviour
         //Debug.LogError("Hello World!");
 
         #endregion
-
-        #region
-
-
-        #endregion
+        
         void Update()
         {
 
